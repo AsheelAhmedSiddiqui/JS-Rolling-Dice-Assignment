@@ -22,3 +22,8 @@ function dice() {
     num.innerText = random;
   }
 }
+
+let now = new Date();
+let year = now.getFullYear();
+let htmlYear = document.getElementById("year").innerText = year;
+
